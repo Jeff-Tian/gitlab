@@ -1,6 +1,19 @@
-gitlab-ee with Keycloak login enabled
+Self hosted gitlab-ee with Keycloak login enabled
 
 ---
+
+## Live URL
+
+- https://jeff-tian-gitlab-wq766wrh9r57-8929.githubpreview.dev/users/sign_in Due to it's default github codespace url, so it's very short life only when I am coding it with codespace. So if you get 404, it means the codespace instance is sleeping. Support me if you want an always online example :) .
+
+## Articles
+
+- [在自托管 GitLab 实例中集成 Keycloak 登录 - Jeff Tian的文章 - 知乎](https://zhuanlan.zhihu.com/p/405425214)
+
+## Videos
+
+- [在 gitlab 自托管实例中集成 Keycloak 登录效果演示 - Jeff Tian的视频 - 知乎](https://www.zhihu.com/zvideo/1416018136143802369)
+- [在自托管 GitLab 中集成 JIRA Cloud（差点翻车，还好最后成功了） - Jeff Tian的视频 - 知乎](https://www.zhihu.com/zvideo/1563966785145171968)
 
 ## Screenshot
 
@@ -13,7 +26,7 @@ cd /etc/gitlab
 # Now open the gitlab.rb in vim or nano and paste the following lines at the start/end of the file & save it.
 vi gitlab.rb
 gitlab-ctl reconfigure
-open https://gitlab.example.com/8929
+open https://jeff-tian-gitlab-wq766wrh9r57-8929.githubpreview.dev
 # login with root/secret_pass for admin
 # login with Keycloak for user  
 ```
@@ -42,3 +55,13 @@ gitlab_rails['omniauth_providers'] = [
     }
 ]
 ```
+
+
+## Ask me any questions
+
+
+<p align="center">
+    <a href="https://www.zhihu.com/consult/people/1073548674713423872" target="blank">
+        <img src="https://first-go-vercel.vercel.app/api/dynamicimage" alt="向我咨询"/>
+    </a>
+</p>
